@@ -1,17 +1,19 @@
 import React from "react";
 
+import Layouts from "./Layouts";
+import Nome from "./Nome";
+import Descricao from "./Descricao";
+
 export default function Body(props) {
 
   return (
-    <div>
+    <div className="container-fluid bg-light text-center">
 
-          <h1 id="nome_pokemon">{props.dados[2]} <i className="fa-solid fa-hashtag"></i>{props.dados[3]}</h1>
+      <Nome nome={props.dados[0]} id={props.dados[5]}/>
 
-          <img className="imagem_pokemon" src={props.dados[0]} width="500" height="500"></img>
-          <img className="imagem_pokemon" src={props.dados[1]} width="500" height="500"></img>
+      <Layouts sprite={props.dados[1]} peso={props.dados[3]} altura={props.dados[4]} tipos={props.dados[2]}/>
 
-          <p id="peso_pokemon"><i className="fa-solid fa-weight-hanging"></i>: {props.dados[5]/10} kg</p>
-
+      <Descricao id={props.dados[5]} />
 
     </div>
   );
