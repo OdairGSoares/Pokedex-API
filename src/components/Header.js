@@ -17,7 +17,7 @@ export default function Header() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-dark">
         <a className="navbar-brand" href="/">
-          <img src={Brand} width="50px" height="50px" alt="PokeAPI"></img>
+          <img src={Brand} width="40px" height="40px" alt="PokeAPI"></img>
         </a>
 
         <form className="form-inline my-2 my-lg-0" method="GET">
