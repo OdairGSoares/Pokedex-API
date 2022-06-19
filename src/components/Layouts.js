@@ -3,7 +3,7 @@ import Tipos from "./Tipos";
 import Peso_Altura from "./Peso_Altura";
 
 export default function Imagens(props) {
-  const tamanho_sprites = 500;
+  const tamanho_sprites = 300;
 
   return (
     <div>
