@@ -7,7 +7,7 @@ import Descricao from "./Descricao";
 export default function Body(props) {
 
   return (
-    <div className="container-fluid bg-light text-center">
+    <div className="container-fluid bg-light text-center mt-5">
 
       <Nome nome={props.dados[0]} id={props.dados[5]}/>
 

@@ -9,7 +9,7 @@ export default function Imagens(props) {
     <div>
       <div className="row">
 
-        <div className="col-xl-4 text-center">
+        <div className="col-xl-4 text-center mt-3">
           <img
             className="img_fluid"
             src={props.sprite[0]}
